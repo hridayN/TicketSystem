@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketSystem.API", "TicketSystem.API.csproj", "{285038B7-9B7D-4BA3-A1DD-C78256AE2063}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{285038B7-9B7D-4BA3-A1DD-C78256AE2063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{285038B7-9B7D-4BA3-A1DD-C78256AE2063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{285038B7-9B7D-4BA3-A1DD-C78256AE2063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{285038B7-9B7D-4BA3-A1DD-C78256AE2063}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69B7C3B3-DE44-41D0-A5B5-0C465158DB89}
+	EndGlobalSection
+EndGlobal
