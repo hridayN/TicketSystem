@@ -1,0 +1,13 @@
+<form [formGroup]="userFormGroup">
+<div>
+    Email: <input type="text" formControlName="email"/>
+    Login as: <select formControlName="usertype">
+
+    <option [ngValue]="null" selected>Select</option>
+    <option *ngFor="let type of userType;let i as index;" [ngValue]="type">{{type}}</option>
+    </select>
+   
+</div>
+
+<button (click)="login()" [disabled]="!validateInfo()" >LOGIN</button>
+</form>
